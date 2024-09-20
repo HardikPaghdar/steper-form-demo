@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "66ed1b8bf8bdb438aea3299c"
+  },
+  "clientId": "66eba98d27dda76098b20e4d",
+  "clientLoanNumber": "23423423",
+  "reportType": "aivm",
+  "propertyUploadType": "single",
+  "address": "Test Address",
+  "propertyType": "condominium",
+  "propertySpecs": {
+    "aboveGradeSqft": 1000,
+    "isThereBasement": "yes",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "yearBuilt": 1999,
+    "stories": 1,
+    "lotSize": 2000,
+    "_id": {
+      "$oid": "66ed1b8bf8bdb438aea3299d"
+    }
+  },
+  "contactInformation": {
+    "name": "Hardik",
+    "phone": "123-444-5555",
+    "email": "admin@admin.com",
+    "_id": {
+      "$oid": "66ed1b8bf8bdb438aea3299e"
+    }
+  },
+  "createdAt": {
+    "$date": "2024-09-20T06:51:55.464Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T06:51:55.464Z"
+  },
+  "__v": 0
+}]

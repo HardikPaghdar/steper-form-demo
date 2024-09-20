@@ -1,28 +1,4 @@
-# steper-form-demo
-Multi Step form with React, Redux, RabbitMQ, Socket.io, NodeJS, MongoDB
-
-# Frontend App
-Running the Application
-To start the development server and view the Stepper Form in your browser:
-
-**Prerequisites**
-
-Ensure that you have the following installed:
-
-Node.js (version 20 or higher)
-npm or Yarn package manager
-
-``npm install``
-
-To run the project
-
-``npm run dev``
-
-To create a build
-
-``npm run build``
-
-# Backend App
+# Multi Step Form API
 
 ## Requirements
 - Node.js version 20 or greater
@@ -43,11 +19,11 @@ Rename `env.example` to `.env` and configure it according to your local machine 
    ```bash
    nodemon server.js 
    ```
-or
+   or
    ```bash
    node server.js 
    ```
-or
+   or
    ```bash
    npm start 
    ```
@@ -56,3 +32,4 @@ or
    ```bash
    Make a new database named `stepper-form-db` and import dump data files stored in `DbDump` folder.
    ````
+

@@ -1,0 +1,390 @@
+@use 'variables' as *;
+
+@use './variables' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+body {
+  font-family: 'Ubuntu';
+  font-size: 1.6rem;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: $background;
+  z-index: 2;
+  min-height: 100svh;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  padding-top: 2em;
+  padding-bottom: 8em;
+  background-size: cover;
+  background-color: $cos;
+  gap: 25rem;
+
+  &__step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  &__step-title {
+    display: none;
+  }
+
+  &__step-name {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  &__step-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 0.5em;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: 1px solid $stepcolor;
+    border-radius: 100%;
+  }
+
+  &__step-indicator-text {
+    position: relative;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 500;
+    margin: unset;
+    &.steps__step-active {
+      color: $grenadeblue;
+    }
+  }
+
+  &__bg {
+    background-color: $stepcolor;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    z-index: -1;
+  }
+
+  &__active {
+    background-color: $stepcolor;
+    color: $grenadeblue;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 1.5rem;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.app-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 2em;
+  margin-top: 8em;
+  padding: 2em;
+  border-radius: 10px;
+
+  .width-400 {
+    width: 400px;
+    margin-bottom: 5px;
+  }
+  .line-items-list {
+    max-height: 400px;
+  }
+
+  .select__control {
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    align-content: center !important;
+    max-height: 32px !important;
+    min-height: unset;
+  }
+  .select__input-container {
+    font-size: 1.5rem;
+  }
+
+  .select__single-value, .select__placeholder {
+    font-size: 1.5rem;
+  }
+  .select__option {
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+
+  .required:after {
+    content: " *";
+    color: red;
+    font-weight: 100;
+  }
+
+  &__heading {
+    font-size: 2.4rem;
+    color: $grenadeblue;
+    margin-bottom: 0.4em;
+  }
+  &__text {
+    font-size: 1.4rem;
+    line-height: 1.5em;
+    color: $subtext;
+    margin-bottom: 1em;
+  }
+
+  &__image {
+    margin-top: 5em;
+    margin-bottom: 2em;
+    width: 5em;
+    align-self: center;
+  }
+  &__center {
+    text-align: center;
+    line-break: auto;
+  }
+  &__attribution {
+    margin-bottom: 5em;
+  }
+}
+
+.bottom-panel {
+  position: sticky;
+  top: 100%;
+  width: 100%;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  &__btn {
+    &:disabled {
+      background-color: #cfe2ff;
+      cursor: not-allowed;
+    }
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.8em 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Ubuntu', 'sans-serif';
+    color: #fff;
+    background-color: $grenadeblue;
+    cursor: pointer;
+    &.bottom-panel__btn-confirm {
+      border: none;
+      background-color: #493cfe;
+    }
+  }
+  &__text-btn {
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.8em 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Ubuntu", "sans-serif";
+    color: #fff;
+    background-color: #00103fa3;
+  }
+}
+.plan-card {
+  display: flex;
+  align-items: flex-start;
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  cursor: pointer;
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    margin-left: 1em;
+  }
+  &__title {
+    font-size: 1.5rem;
+    color: $grenadeblue;
+  }
+  &__price {
+    color: $subtext;
+    font-size: 1.5rem;
+  }
+  &__free {
+    color: $grenadeblue;
+    font-size: 1.5rem;
+  }
+}
+
+.mode-switch {
+  background-color: $background;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    &--month {
+      color: $grenadeblue;
+    }
+    &--year {
+      color: $subtext;
+    }
+  }
+  &__button {
+    margin: 0 2em;
+    display: flex;
+    width: 18%;
+    padding: 0.4em;
+    border-radius: 16px;
+    background-color: $grenadeblue;
+    cursor: pointer;
+  }
+  &__button-circle {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    &--right {
+      margin-left: auto;
+    }
+  }
+}
+.add-on {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  margin-bottom: 1em;
+  cursor: pointer;
+  &.active {
+    border: 1px solid #7c75b1;
+    background-color: #f8f9fe;
+    .add-on__checkbox {
+      border: 0.5px solid transparent;
+      background-color: #493cfe;
+      svg {
+        display: block;
+      }
+    }
+  }
+  &__checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 1em;
+    border: 0.5px solid $subtext;
+    border-radius: 4px;
+    svg {
+      display: none;
+    }
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  &__title {
+    color: $grenadeblue;
+    font-size: 1.2rem;
+  }
+  &__subtitle {
+    color: $subtext;
+    font-size: 1.5rem;
+  }
+  &__price {
+    margin-left: auto;
+    color: #4331c2;
+  }
+}
+.checkout {
+  background-color: $background;
+  padding: 1.5em;
+  border-radius: 8px;
+  &__text {
+    display: flex;
+    flex-direction: column;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: $grenadeblue;
+    margin-bottom: 0.4em;
+  }
+  &__link {
+    font-size: 1.4rem;
+    color: $subtext;
+    text-decoration: underline;
+  }
+  &__price {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+  &__line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(216, 216, 216);
+    margin: 1em 0;
+  }
+  &__total {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  &__total-text {
+    color: $subtext;
+    font-size: 1.4rem;
+  }
+  &__list {
+    list-style-type: none;
+  }
+  &__list-element {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+  }
+  &__list-text {
+    font-size: 1.4rem;
+  }
+  &__list-price {
+    font-size: 1.4rem;
+  }
+  &__total-price {
+    color: #493cfe;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}

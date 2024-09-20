@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "66eba93e27dda76098b20e4a"
+  },
+  "name": "aivm",
+  "label": "AIVM"
+},
+{
+  "_id": {
+    "$oid": "66eba97c27dda76098b20e4b"
+  },
+  "name": "valuation",
+  "label": "Property Valuation"
+}]

@@ -1,0 +1,496 @@
+[{
+  "_id": {
+    "$oid": "66ed1b8bf8bdb438aea329a0"
+  },
+  "formIntakeId": {
+    "$oid": "66ed1b8bf8bdb438aea3299c"
+  },
+  "fileData": [
+    {
+      "description": "Soft Costs (Plans/Permits/Fees)",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329a1"
+      }
+    },
+    {
+      "description": "Demo & Trash Haul",
+      "budget": 2000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329a2"
+      }
+    },
+    {
+      "description": "Sitework/ Shoring",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329a3"
+      }
+    },
+    {
+      "description": "Foundation",
+      "budget": 3000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329a4"
+      }
+    },
+    {
+      "description": "Framing",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329a5"
+      }
+    },
+    {
+      "description": "Plumbing Finish Materials",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329a6"
+      }
+    },
+    {
+      "description": "Plumbing install/ Rough",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329a7"
+      }
+    },
+    {
+      "description": "Electrical Finish Materials",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329a8"
+      }
+    },
+    {
+      "description": "Electrical Install/ rough",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329a9"
+      }
+    },
+    {
+      "description": "Metal Works (iron, etc.)",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329aa"
+      }
+    },
+    {
+      "description": "HVAC ",
+      "budget": 2500,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329ab"
+      }
+    },
+    {
+      "description": "Roof",
+      "budget": 2000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329ac"
+      }
+    },
+    {
+      "description": "Stucco, Siding, Etc. Coverings",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329ad"
+      }
+    },
+    {
+      "description": "Insulation",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329ae"
+      }
+    },
+    {
+      "description": "Drywall",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329af"
+      }
+    },
+    {
+      "description": "Tile Finish Materials",
+      "budget": 500,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329b0"
+      }
+    },
+    {
+      "description": "Tile Installations",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329b1"
+      }
+    },
+    {
+      "description": "Doors/ Windows",
+      "budget": 1200,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329b2"
+      }
+    },
+    {
+      "description": "Finish Carpentry",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329b3"
+      }
+    },
+    {
+      "description": "Paint/ Specialties",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329b4"
+      }
+    },
+    {
+      "description": "Glazing (Glass installs)",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329b5"
+      }
+    },
+    {
+      "description": "Flooring",
+      "budget": 2000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329b6"
+      }
+    },
+    {
+      "description": "Hardware",
+      "budget": 1000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329b7"
+      }
+    },
+    {
+      "description": "Pool ",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329b8"
+      }
+    },
+    {
+      "description": "Appliances",
+      "budget": 1500,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329b9"
+      }
+    },
+    {
+      "description": "Countertops (w/ Install)",
+      "budget": 200,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329ba"
+      }
+    },
+    {
+      "description": "Miscellaneous",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329bb"
+      }
+    },
+    {
+      "description": "General Labor",
+      "budget": 1500,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329bc"
+      }
+    },
+    {
+      "description": "Landscaping",
+      "budget": 100,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329bd"
+      }
+    },
+    {
+      "description": "Hardscape",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329be"
+      }
+    },
+    {
+      "description": "Fireplaces",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329bf"
+      }
+    },
+    {
+      "description": "General Contractor",
+      "budget": 11000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329c0"
+      }
+    },
+    {
+      "description": "Cabinets",
+      "budget": 1500,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329c1"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-09-20T06:51:55.619Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T06:51:55.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ed1b8bf8bdb438aea329c2"
+  },
+  "formIntakeId": {
+    "$oid": "66ed1b8bf8bdb438aea3299c"
+  },
+  "fileData": [
+    {
+      "description": "Soft Costs (Plans/Permits/Fees)",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329c3"
+      }
+    },
+    {
+      "description": "Demo & Trash Haul",
+      "budget": 2000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329c4"
+      }
+    },
+    {
+      "description": "Sitework/ Shoring",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329c5"
+      }
+    },
+    {
+      "description": "Foundation",
+      "budget": 3000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329c6"
+      }
+    },
+    {
+      "description": "Framing",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329c7"
+      }
+    },
+    {
+      "description": "Plumbing Finish Materials",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329c8"
+      }
+    },
+    {
+      "description": "Plumbing install/ Rough",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329c9"
+      }
+    },
+    {
+      "description": "Electrical Finish Materials",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329ca"
+      }
+    },
+    {
+      "description": "Electrical Install/ rough",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329cb"
+      }
+    },
+    {
+      "description": "Metal Works (iron, etc.)",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329cc"
+      }
+    },
+    {
+      "description": "HVAC ",
+      "budget": 2500,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329cd"
+      }
+    },
+    {
+      "description": "Roof",
+      "budget": 2000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329ce"
+      }
+    },
+    {
+      "description": "Stucco, Siding, Etc. Coverings",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329cf"
+      }
+    },
+    {
+      "description": "Insulation",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329d0"
+      }
+    },
+    {
+      "description": "Drywall",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329d1"
+      }
+    },
+    {
+      "description": "Tile Finish Materials",
+      "budget": 500,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329d2"
+      }
+    },
+    {
+      "description": "Tile Installations",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329d3"
+      }
+    },
+    {
+      "description": "Doors/ Windows",
+      "budget": 1200,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329d4"
+      }
+    },
+    {
+      "description": "Finish Carpentry",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329d5"
+      }
+    },
+    {
+      "description": "Paint/ Specialties",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329d6"
+      }
+    },
+    {
+      "description": "Glazing (Glass installs)",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329d7"
+      }
+    },
+    {
+      "description": "Flooring",
+      "budget": 2000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329d8"
+      }
+    },
+    {
+      "description": "Hardware",
+      "budget": 1000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329d9"
+      }
+    },
+    {
+      "description": "Pool ",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329da"
+      }
+    },
+    {
+      "description": "Appliances",
+      "budget": 1500,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329db"
+      }
+    },
+    {
+      "description": "Countertops (w/ Install)",
+      "budget": 200,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329dc"
+      }
+    },
+    {
+      "description": "Miscellaneous",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329dd"
+      }
+    },
+    {
+      "description": "General Labor",
+      "budget": 1500,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329de"
+      }
+    },
+    {
+      "description": "Landscaping",
+      "budget": 100,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329df"
+      }
+    },
+    {
+      "description": "Hardscape",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329e0"
+      }
+    },
+    {
+      "description": "Fireplaces",
+      "budget": 0,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329e1"
+      }
+    },
+    {
+      "description": "General Contractor",
+      "budget": 11000,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329e2"
+      }
+    },
+    {
+      "description": "Cabinets",
+      "budget": 1500,
+      "_id": {
+        "$oid": "66ed1b8bf8bdb438aea329e3"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-09-20T06:51:55.619Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T06:51:55.619Z"
+  },
+  "__v": 0
+}]
