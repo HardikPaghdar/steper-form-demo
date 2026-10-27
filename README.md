@@ -1,58 +1,44 @@
-# steper-form-demo
-Multi Step form with React, Redux, RabbitMQ, Socket.io, NodeJS, MongoDB
+# Multi-Step Form Demo
 
-# Frontend App
-Running the Application
-To start the development server and view the Stepper Form in your browser:
-
-**Prerequisites**
-
-Ensure that you have the following installed:
-
-Node.js (version 20 or higher)
-npm or Yarn package manager
-
-``npm install``
-
-To run the project
-
-``npm run dev``
-
-To create a build
-
-``npm run build``
-
-# Backend App
+A full-stack stepper-form demo using React, Redux, Node.js, MongoDB, Socket.IO, and RabbitMQ. The README describes separate frontend and backend setup.
 
 ## Requirements
-- Node.js version 20 or greater
-- MongoDB server
-- RabbitMQ installed on system
-- SocketIO server
 
-## Setup
+- Node.js 20 or later
+- npm or Yarn
+- MongoDB
+- RabbitMQ
+- Socket.IO configuration used by the backend
 
-#### 1. Rename file
-Rename `env.example` to `.env` and configure it according to your local machine requirements by adding the necessary parameters.
+## Frontend
 
-#### 2. Install Node.js dependencies:
+From the frontend directory:
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+Use the package manager and scripts defined by the frontend's `package.json` if they differ.
+
+## Backend
+
+1. Copy the tracked example environment file to a local `.env` file and configure values for your machine. Do not commit the resulting `.env`.
+2. Install dependencies from the backend directory:
+
    ```bash
    npm install
-   ````
-#### 3. Start Node.js project:
-   ```bash
-   nodemon server.js 
-   ```
-or
-   ```bash
-   node server.js 
-   ```
-or
-   ```bash
-   npm start 
    ```
 
-#### 4. Import data into DB:
+3. Start the backend using the script in `package.json`, or the documented command:
+
    ```bash
-   Make a new database named `stepper-form-db` and import dump data files stored in `DbDump` folder.
-   ````
+   npm start
+   ```
+
+4. If using the sample database, create `stepper-form-db` and import the dump files in `DbDump/` as appropriate for the current schema.
+
+## Before deploying
+
+Verify the frontend/backend ports, database configuration, RabbitMQ and Socket.IO connection settings, authentication/authorization, and error handling. Sample database dumps may contain test data; review them before sharing or using in production. Keep credentials and real user data out of source control.
